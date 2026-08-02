@@ -306,6 +306,23 @@ img { max-width: 100%; display: block; }
 
 .btn-full { width: 100%; justify-content: center; }
 
+.btn-resume {
+  background: linear-gradient(135deg, #00c853 0%, #00e676 100%);
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(0, 200, 83, 0.35);
+}
+
+.btn-resume:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(0, 200, 83, 0.5);
+  opacity: 0.95;
+}
+
+.nav-link-resume {
+  color: #00e676 !important;
+  font-weight: 600 !important;
+}
+
 .btn-loader {
   display: none;
   width: 18px; height: 18px;
